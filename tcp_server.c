@@ -6,6 +6,9 @@
 
 int main(){
 
+// OUTLINE
+    // socket() => bind() => listen() => accept()    
+
     char server_message[256] = "The message from Server !!!" ; 
     
     // creating a socket 
