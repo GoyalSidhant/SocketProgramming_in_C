@@ -21,7 +21,7 @@ int main(){
     server_address.sin_port = htons(9002) ; 
     server_address.sin_addr.s_addr = INADDR_ANY ; 
 
-    // bind our socke to specific ip and port 
+    // bind our socket to specific ip and port 
     int bind_ststus =  bind(server_socket , (struct sockaddr* ) &server_address , sizeof(server_address)) ; 
 
     // listen function 
